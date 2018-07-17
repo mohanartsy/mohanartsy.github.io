@@ -165,6 +165,7 @@ a:hover {
 }
 .skills-web{
 	padding-left: 20px;
+    color:#777;
 }
 .experience-section {
     background: #28023D;
@@ -193,7 +194,7 @@ p {
     font-family: 'Nunito', sans-serif;
 
 }
-.education-wrapper .education:after {
+.education-wrapper .education:after  {
     content: '';
     position: absolute;
     top: 8px;
@@ -205,6 +206,20 @@ p {
     box-shadow: 0 0 0 8px rgba(255,171,0, .4);
     background: #FFAB00;
 }
+.design:after,.development:after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: -58px;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 0 0 0 8px rgba(255,171,0, .4);
+    background: #FFAB00;
+}
+
+
 .copyright {
     text-align: center;
     padding: 30px 0;
