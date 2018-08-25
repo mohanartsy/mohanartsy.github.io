@@ -222,7 +222,7 @@ p {
 
 .copyright {
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0;
     background: #28023D;
 }
 .img-responsive{
@@ -260,4 +260,9 @@ p {
 .thumb{
   margin-top: 15px;
   margin-bottom: 15px;
+}
+.counter{
+    padding-top: 20px;
+    text-align: center;
+    background: #28023d;
 }
